@@ -1,13 +1,14 @@
 import os
+import shutil
 import kagglehub
-import pandas as pd
+import pandas as pd # type: ignore
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models, regularizers
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.utils import to_categorical
-import matplotlib.pyplot as plt
-import seaborn as sns
+import tensorflow as tf # type: ignore
+from tensorflow.keras import layers, models, regularizers # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
+from tensorflow.keras.utils import to_categorical # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns # type: ignore
 
 
 # ==========================================
